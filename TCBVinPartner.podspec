@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'TCBVinPartner'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary = 'TCBVinPartner'
   s.homepage = 'https://github.com/doquanghuy/iOSTCBVinPartner.git'
   s.authors = { 'Techcombank' => 'info@techcombank.com.vn' }
