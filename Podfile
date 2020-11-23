@@ -4,8 +4,8 @@ platform :ios, '13.0'
 inhibit_all_warnings!
 
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbservicespecs.git'
-source 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcorespecs.git'
+source 'https://github.com/doquanghuy/iOSTCBServiceSpecs.git'
+source 'https://github.com/doquanghuy/iOSTCBDomainSpecs.git'
 
 plugin 'cocoapods-art', sources: %w[
   backbase-pods3
@@ -14,15 +14,9 @@ plugin 'cocoapods-art', sources: %w[
 
 use_frameworks!
 
-def tcb_components
-  pod 'TCBComponents', :git => 'https://bitbucket.techcombank.com.vn/scm/toreombb/iostcbcomponents.git'
-end
-
 target 'TCBVinPartner' do
-  tcb_components
-  
-  pod 'TCBService', '1.0.2'
-  
+  pod 'TCBComponents', '1.0.0'
+  pod 'TCBService', '1.0.2'  
   pod 'RxSwift', '~> 5.0'
   pod 'RxCocoa', '5'
   pod 'SnapKit', '5.0.0'
