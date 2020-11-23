@@ -16,7 +16,7 @@ plugin 'cocoapods-art', sources: %w[
 use_frameworks!
 
 target 'TCBVinPartner' do
-  #pod 'TCBComponents', '1.0.0'
+  pod 'TCBComponents', '1.0.0'
   pod 'TCBService', '1.0.2'  
   pod 'RxSwift', '~> 5.0'
   pod 'RxCocoa', '5'
