@@ -6,6 +6,7 @@ inhibit_all_warnings!
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/doquanghuy/iOSTCBServiceSpecs.git'
 source 'https://github.com/doquanghuy/iOSTCBDomainSpecs.git'
+source 'https://github.com/doquanghuy/iOSTCBComponentSpecs.git'
 
 plugin 'cocoapods-art', sources: %w[
   backbase-pods3
